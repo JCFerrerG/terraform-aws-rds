@@ -34,6 +34,7 @@ module "rds_instance" {
   storage_encrypted   = var.storage_encrypted
   engine              = var.engine
   engine_version      = var.engine_version
+  major_engine_version = var.major_engine_version
   instance_class      = var.instance_class
   db_parameter_group  = var.db_parameter_group
   publicly_accessible = var.publicly_accessible
